@@ -9,7 +9,7 @@ RUN set -x \
     && apt-get install --no-install-recommends --no-install-suggests -y apt-transport-https ca-certificates procps curl wget git git-lfs nano openssh-client \
     && rm -rf /var/lib/apt/lists/* \
     && mkdir /code && \
-    chmod 400 /root/.ssh/Jarvisbot*
+    chmod 400 /root/.ssh/ci*
 
 WORKDIR /code
 

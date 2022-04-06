@@ -1,5 +1,7 @@
 # git使用指南
 
+> ysicing/drone-plugin-git
+
 ## 参数
 
 - PLUGIN_DEBUG
